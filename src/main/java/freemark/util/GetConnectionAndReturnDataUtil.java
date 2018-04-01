@@ -1,5 +1,5 @@
 /**
- * @company 杭州信牛网络科技有限公司
+ * @company
  * @copyright Copyright (c) 2015 - 2018
  */
 package freemark.util;
@@ -25,7 +25,7 @@ public class GetConnectionAndReturnDataUtil {
     public static DruidPooledConnection getConnection() {
         //建立与数据库的连接
         DruidDataSource druidDataSource = new DruidDataSource();
-        druidDataSource.setUrl("jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8");
+        druidDataSource.setUrl("jdbc:mysql://127.0.0.1:3306/ttms?characterEncoding=utf-8");
         druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         druidDataSource.setUsername("root");
         druidDataSource.setPassword("123456");
