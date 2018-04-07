@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root name="root" desc="根元素">
+    <firstchild name="firstchild" desc="第一个子元素">
+        <firstchild-1>
+
+        </firstchild-1>
+        <firstchild-2>
+
+        </firstchild-2>
+    </firstchild>
+
+    <secondchild>
+        <secondchild-1>
+
+        </secondchild-1>
+    </secondchild>
+</root>

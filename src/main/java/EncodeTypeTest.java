@@ -1,5 +1,5 @@
 /**
- * @company 杭州信牛网络科技有限公司
+ * @company
  * @copyright Copyright (c) 2015 - 2018
  */
 
@@ -16,7 +16,7 @@ public class EncodeTypeTest {
     public static void main(String[] args) {
         try {
             BufferedInputStream bi = new BufferedInputStream(new FileInputStream(
-                    "D:/ideawork/test/target/classes/spring-config.xml"));
+                    "D:/ideawork/Test/target/classes/spring-config.xml"));
 //            System.out.println(ClassLoader.getSystemResource("spring-config.xml"));
             ClassPathResource classPathResource = new ClassPathResource("spring-config.xml");
             BufferedInputStream bin = new BufferedInputStream(classPathResource.getInputStream());
