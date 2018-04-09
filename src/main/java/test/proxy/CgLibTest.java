@@ -14,10 +14,13 @@ public class CgLibTest {
 
 class MyCglibTest implements MethodInterceptor{
 
+    CgLibTest cgLibTest = new CgLibTest();
+
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("代理类先执行");
         Object object = methodProxy.invokeSuper(o,objects);
+//        System.out.println(method.invoke(cgLibTest,objects));
         System.out.println(object);
         return object;
     }

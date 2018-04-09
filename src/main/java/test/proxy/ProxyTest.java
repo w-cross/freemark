@@ -11,6 +11,7 @@ interface ProxyTest1 {
 public class ProxyTest implements ProxyTest1{
     public String getNumber(){
         String data = "真实类开始了";
+        System.out.println(data);
         return data;
     }
 }
@@ -38,6 +39,6 @@ class initTest {
         ProxyTest1 proxyTest1 =  (ProxyTest1)Proxy.newProxyInstance(proxyTest.getClass().getClassLoader(),
                 proxyTest.getClass().getInterfaces(),
                 proxyTestProxy);
-        System.out.println(proxyTest1.getNumber());
+        proxyTest1.getNumber();
     }
 }
