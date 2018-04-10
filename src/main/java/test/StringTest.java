@@ -24,6 +24,7 @@ public class StringTest {
         helloWord = new HelloWord();
         System.out.println(helloWord);
         test1(helloWord);
+        System.out.println(helloWord);
         System.out.println(helloWord.getName());
     }
 
@@ -33,9 +34,7 @@ public class StringTest {
         System.out.println(str);
     }
     public static void test1(HelloWord helloWord){
-        System.out.println(helloWord);
         helloWord = new HelloWord();
-        System.out.println(helloWord);
         helloWord.setName("里斯");
 
     }
