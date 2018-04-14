@@ -27,5 +27,4 @@
     <!--&lt;!&ndash; 自身服务 &ndash;&gt;-->
     <!--<import resource="classpath:spring/spring-core-transaction.xml"/>-->
 
-
 </beans>

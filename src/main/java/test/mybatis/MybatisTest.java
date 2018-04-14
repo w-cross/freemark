@@ -35,6 +35,7 @@ public class MybatisTest {
             SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder()
                     .build(inputStream);
             SqlSession sqlSession = sqlSessionFactory.openSession();
+            sqlSession.insert("");
             DOMParser domParser = new DOMParser();
             Plugin plugin = null;
             Configuration configuration = new Configuration();
@@ -47,9 +48,6 @@ public class MybatisTest {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
