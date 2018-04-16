@@ -1,4 +1,4 @@
-/**
+package test.EcodeTest; /**
  * @company
  * @copyright Copyright (c) 2015 - 2018
  */
@@ -10,7 +10,7 @@ import java.io.FileInputStream;
 
 /**
  * @author 吴中稳(WuZhongWen)
- * @version $Id: EncodeTypeTest, v0.1 2018年03月27日 9:47 吴中稳(WuZhongWen) Exp $
+ * @version $Id: test.EcodeTest.EncodeTypeTest, v0.1 2018年03月27日 9:47 吴中稳(WuZhongWen) Exp $
  */
 public class EncodeTypeTest {
     public static void main(String[] args) {
