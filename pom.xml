@@ -34,9 +34,9 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.sourceforge.cpdetector/cpdetector -->
         <!--<dependency>-->
-            <!--<groupId>net.sourceforge.cpdetector</groupId>-->
-            <!--<artifactId>cpdetector</artifactId>-->
-            <!--<version>1.0.7</version>-->
+        <!--<groupId>net.sourceforge.cpdetector</groupId>-->
+        <!--<artifactId>cpdetector</artifactId>-->
+        <!--<version>1.0.7</version>-->
         <!--</dependency>-->
 
         <!--freemark添加-->

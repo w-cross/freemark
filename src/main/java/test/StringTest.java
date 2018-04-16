@@ -9,8 +9,8 @@ import hello.HelloWord;
 import java.util.logging.Handler;
 
 /**
- * @author 吴中稳(WuZhongWen)
- * @version $Id: StringTest, v0.1 2018年04月09日 19:11 吴中稳(WuZhongWen) Exp $
+ * @author
+ * @version $Id: StringTest, v0.1 2018年04月09日 19:11 Exp $
  */
 public class StringTest {
     public static void main(String[] args) {
