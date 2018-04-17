@@ -41,9 +41,22 @@ public class XpathTest {
             Node node = xpathTest.getNode(document, "/root");
             System.out.println(node.getNodeName());
             //获取根元素下的某个子元素
-            Node node1 = xpathTest.getNode(node,"firstchild");
+            Node node1 = xpathTest.getNode(node, "firstchild");
             System.out.println(node1.getNodeName());
             //获取根元素下的某个子元素的所有元素
+            NodeList nodeList = node1.getChildNodes();
+            System.out.println(nodeList.getLength());
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                System.out.println(nodeList.item(i).getNodeType()); //1代表子元素，3代表默认填充的元素 #text
+                System.out.println(nodeList.item(i).getNodeName());
+            }
+
+            //获取某个子元素
+            Node node2 = xpathTest.getNode(node,"/root/firstchild");
+            System.out.println(node2.getNodeName());
+            System.out.println(node2.getChildNodes().getLength());
+
+
 
         } catch (Exception e) {
             e.printStackTrace();

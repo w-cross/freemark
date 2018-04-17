@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<root name="root" desc="根元素">-->
-    <!--<firstchild name="firstchild" desc="第一个子元素">-->
-        <!--<firstchild-1>-->
+<root name="root" desc="根元素">
 
-        <!--</firstchild-1>-->
-        <!--<firstchild-2>-->
+    <firstchild name="firstchild" desc="第一个子元素">
+        <firstchild-1>
 
-        <!--</firstchild-2>-->
-    <!--</firstchild>-->
+        </firstchild-1>
+        <firstchild-2>
 
-    <!--<secondchild>-->
-        <!--<secondchild-1>-->
+        </firstchild-2>
+    </firstchild>
 
-    <!--</secondchild-1>-->
-    <!--</secondchild>-->
-<!--</root>-->
-<configuration >
-    <plugins>
+    <secondchild>
+        <secondchild-1>
 
-    </plugins>
-</configuration>
+    </secondchild-1>
+    </secondchild>
+</root>
+<!--<configuration >-->
+    <!--<plugins>-->
+
+    <!--</plugins>-->
+<!--</configuration>-->

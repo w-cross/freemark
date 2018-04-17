@@ -50,7 +50,7 @@ public class MybatisTest {
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        }
+    }
     }
 
 
