@@ -1,13 +1,6 @@
-/**
- * @company 杭州信牛网络科技有限公司
- * @copyright Copyright (c) 2015 - 2018
- */
 package freemark.model;
 
-/**
- * @author 吴中稳(WuZhongWen)
- * @version $Id: MetaDataModel, v0.1 2018年03月29日 14:36 吴中稳(WuZhongWen) Exp $
- */
+
 public class MetaDataModel {
     private String columnName;
     private String dataType;

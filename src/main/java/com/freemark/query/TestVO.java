@@ -1,17 +1,8 @@
-/**
-* @company
-* @copyright Copyright (c) 2012-2017
-*/
 package com.freemark.query;
 
 
 
-/**
-* test表  - VO实体
-*
-* @author 吴中稳(ZhangWenQing)
-* @version $Id: TestVO, v0.1 2017年02月23日 17:23 吴中稳(ZhangWenQing) Exp $
-*/
+
 public class TestVO {
 
 private static final long serialVersionUID = 1L;

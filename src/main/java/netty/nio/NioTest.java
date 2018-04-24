@@ -1,7 +1,3 @@
-/**
- * @company
- * @copyright Copyright (c) 2015 - 2018
- */
 package netty.nio;
 
 import java.io.IOException;
@@ -13,10 +9,6 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-/**
- * @author 吴中稳(WuZhongWen)
- * @version $Id: NioTest, v0.1 2018年04月02日 10:27 吴中稳(WuZhongWen) Exp $
- */
 public class NioTest {
     // 通道管理器
     private Selector selector;

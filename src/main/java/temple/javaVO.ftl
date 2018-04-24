@@ -1,5 +1,5 @@
 /**
-* @company 杭州信牛网络科技有限公司
+* @company
 * @copyright Copyright (c) 2012-2017
 */
 package com.freemark.${packageName};
