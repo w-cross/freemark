@@ -42,7 +42,8 @@ public class GetConnectionAndReturnDataUtil {
         Map<String, Object> map = new HashMap();
         try {
             DruidPooledConnection druidPooledConnection = getConnection();
-            ps = druidPooledConnection.prepareStatement("SELECT TABLE_NAME,COLUMN_NAME,COLUMN_KEY,DATA_TYPE,COLUMN_TYPE,COLUMN_COMMENT "
+            ps = druidPooledConnection.prepareStatement(
+                    "SELECT TABLE_NAME,COLUMN_NAME,COLUMN_KEY,DATA_TYPE,COLUMN_TYPE,COLUMN_COMMENT "
                     + "FROM information_schema. COLUMNS WHERE table_schema = ?  AND table_name = ?");
             ps.setString(1, dataBaseName);
             ps.setString(2, tableName);

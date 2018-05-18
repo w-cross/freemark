@@ -2,13 +2,12 @@
 package test.basictest.dequetest;
 
 
-import com.sun.org.apache.xpath.internal.operations.String;
-import org.springframework.core.type.filter.AbstractClassTestingTypeFilter;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.DelayQueue;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 public class DequeTest {
@@ -19,7 +18,15 @@ public class DequeTest {
         System.out.println(result);
         AbstractQueuedSynchronizer abstractQueuedSynchronizer = null;
         ConcurrentHashMap concrrentHashMap = new ConcurrentHashMap();
-        Map<String ,String> map = new HashMap();
+        Map<String,String> map = new HashMap<String, String>();
+        String s = "akey";
+        map.put("1",s);
+
+
+        //队列
+        DelayQueue delayQueue = new DelayQueue();
+
+
 
     }
 }

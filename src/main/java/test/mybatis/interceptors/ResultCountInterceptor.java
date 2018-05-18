@@ -1,10 +1,18 @@
-package test.mybatis.interceptors.resultcount;
+package test.mybatis.interceptors;
 
+import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.plugin.Interceptor;
+import org.apache.ibatis.plugin.Intercepts;
 import org.apache.ibatis.plugin.Invocation;
+import org.apache.ibatis.plugin.Signature;
 
+import java.sql.Connection;
 import java.util.Properties;
 
+@Intercepts({
+        @Signature(type = StatementHandler.class, method = "prepare",
+                args = {Connection.class})
+})
 public class ResultCountInterceptor implements Interceptor {
     @Override
     public Object intercept(Invocation invocation) throws Throwable {

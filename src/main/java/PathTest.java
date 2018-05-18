@@ -21,7 +21,7 @@ public class PathTest {
             IoTest ioTest = new IoTest();
             System.out.println(ioTest.getClass().getClassLoader().getResource("")
             .getPath());
-            System.out.println(ioTest.getClass().getResource(""));
+            System.out.println(ioTest.getClass().getResource(   ""));
             System.out.println(ioTest.getClass().getResource("/"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
